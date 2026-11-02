@@ -1,0 +1,61 @@
+html {
+    background-color: lightpink;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+code {
+    background-color: rgba(255, 213, 219, 0.497);
+    color: rgb(255, 113, 134);
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: auto;
+}
+
+.site-nav {
+    background-color: cornsilk;
+}
+
+.site-links {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.site-link {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.site-link:hover {
+    background-color: rgb(252, 235, 169);
+}
+
+.dropdown {
+    background-color: floralwhite;
+    position: absolute;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
+    list-style: none;
+    padding: 0;
+    display: none;
+}
+
+.dropdown-link {
+    color: darkred;
+    text-decoration: none;
+    display: block;
+    padding: 8px 10px;
+}
+
+.dropdown-link:hover {
+    background-color: gold;
+}
+
+.has-dropdown:hover .dropdown {
+    display: block;
+}
